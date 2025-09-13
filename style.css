@@ -29,23 +29,24 @@ font-size:8vmin;
 color: red;
 
 }
-.rsetbtn{
-    padding:1rem;
+#rsetbtn,
+#newbtn {
+    padding: 1rem 2rem;
     font-size: 1.25rem;
     background-color: #191913;
     color: white;
     border-radius: 1rem;
     border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
+#rsetbtn:hover,
+#newbtn:hover {
+    background-color: #333;
 }
-.newbtn{
-    padding:1rem;
-    font-size: 1.25rem;
-    background-color: #191913;
-    color: white;
-    border-radius: 1rem;
-    border: none; 
-}
+
 .msg{
     color: #ffffc7;
     font-size: 5vmin;
